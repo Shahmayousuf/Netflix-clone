@@ -12,7 +12,7 @@ const RowPost =(props) => {
       setMovies(response.data.results);
     });
   }, []);
-
+   
   const opts = {
     height: '390',
     width: '100%',

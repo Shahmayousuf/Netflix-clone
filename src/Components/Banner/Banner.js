@@ -27,7 +27,7 @@ const[movie,setMovie]=useState()
             {movie?movie.overview:""}
             </h1>
         </div>
-        <div className="fade"></div>/
+        <div className="fade"></div>
 
               
       

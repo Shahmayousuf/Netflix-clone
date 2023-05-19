@@ -1,0 +1,58 @@
+.banner {
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(
+      to bottom,
+      rgba(15, 10, 10, 0.642),
+      rgba(28, 28, 29, 0.717)
+    ),
+    url("https://external-preview.redd.it/TSfi6Nz-SuSWiR6XC5mPCY0icvC2Rkdr8z_s8V1eO3M.jpg?auto=webp&s=d7ce0c6b7349d59bd030848fc8fda61cdcab3ce4");
+  background: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form h2 {
+  /* text-align: center; */
+  margin-left: 50px;
+  padding: 20px;
+  margin-bottom: -40px;
+}
+.form {
+  filter: contrast(90%);
+  background-color: rgba(18, 17, 17, 0);
+  margin-top: 10px;
+  height: auto;
+  width: 500px;
+  border: 1px solid rgba(11, 11, 11, 0.233);
+  box-shadow: inset -5px -5px rgba(11, 10, 10, 0.541);
+  border-radius: 10px;
+  backdrop-filter: blur(9px);
+}
+.form-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  margin-bottom: 40px;
+  
+
+}
+
+.formGroup {
+  width: 100%;
+}
+.loginBtn {
+  width: 100%;
+}
+.text {
+  width: 100%;
+  display: flex;
+
+  justify-content: space-between;
+}
