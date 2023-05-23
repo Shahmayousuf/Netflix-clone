@@ -1,37 +1,41 @@
-.banner{
-   
+#banner{
     background-size: cover;
     height: 500px;
     color: white;
-    
+    width: 100%;
+    /* height: 100vh; */
 }
-.content{
+#content{
    padding-top: 140px; 
    height: 200px;
    padding-left: 15px;
+
+
 }
 .title{
     font-size: 3rem;
     font-weight: bold;
     padding-bottom: 5px;
+    filter:drop-shadow(0 0 10px black)
 }
-.button{
+#button{
  color: white;
  border: none;
  outline: none;
  border-radius: 3px;
  font-size: 15px;
- background-color: rgb(56, 54, 54);
+ background-color: rgb(84, 81, 81);
  margin: 5px;
  padding: 8px;
  font-weight: bold;
- opacity: 0.5;
+ opacity: 0.6;
  cursor: pointer;
-
 }
-.button:hover{
+#button:hover{
+    font-size: 100px;
     color: black;
-    background-color: #e6e6e6e6;
+    background-color:red;
+    
 }
 
 .description{
@@ -41,6 +45,7 @@
     font-size: 20px;
     height: 80px;
     max-width: 500px;
+    filter:drop-shadow(0 0 8px black)
     
 }
 .fade{

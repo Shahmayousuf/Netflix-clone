@@ -16,11 +16,12 @@
   justify-content: center;
 }
 
-.form h2 {
+.form .head{
   /* text-align: center; */
   margin-left: 50px;
   padding: 20px;
   margin-bottom: -40px;
+  color: white;
 }
 .form {
   filter: contrast(90%);
@@ -42,7 +43,9 @@
   margin-bottom: 40px;
   /* outline: none; */
 }
-
+.formlabel{
+  color: white;
+}
 
 .formGroup {
   width: 100%;
@@ -50,9 +53,10 @@
 .loginBtn {
   width: 100%;
 }
-.text {
+.text  {
   width: 100%;
   display: flex;
+  color:white;
 
   justify-content: space-between;
 }
@@ -60,4 +64,7 @@
   border-color:rgb(129, 122, 122);
   box-shadow: none;
   
+}
+.sugnup{
+  color: white;
 }

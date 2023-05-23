@@ -9,10 +9,13 @@ const LandingPage = () => {
         <p>
           Ready to watch? Enter your email to create or restart your membership{" "}
         </p>
+        <div className="formdiv">
         <form>
             <input type="email" placeholder="Email address"></input><button >TRY 30 DAYS FREE</button>
         </form>
+        </div>
         <p>only new members are eligible for this offer</p>
+       
       </div>
 
     </div>

@@ -6,10 +6,10 @@ const Register = () => {
   return (
     <div className='banner'>
       <div className="form">
-        <h2>Sign Up</h2>
+        <h2 className="head">Sign Up</h2>
         <Form className="form-items">
           <Form.Group className="formGroup mb-3" controlId="formBasicEmail">
-            <Form.Label>Full Name</Form.Label>
+            <Form.Label className="formlabel">Full Name</Form.Label>
             <Form.Control
               style={{ backgroundColor: "rgba(159, 158, 158, 0.112)" }}
               type="text"
@@ -17,7 +17,7 @@ const Register = () => {
             />
           </Form.Group>
           <Form.Group  className="formGroup mb-5" controlId="formBasicEmail">
-            <Form.Label>Email</Form.Label>
+            <Form.Label className="formlabel">Email</Form.Label>
             <Form.Control
               style={{ backgroundColor: "rgba(159, 158, 158, 0.112)" }}
               type="email"

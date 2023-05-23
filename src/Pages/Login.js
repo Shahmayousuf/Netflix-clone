@@ -6,10 +6,10 @@ const Login = () => {
   return (
     <div className="banner">
       <div className="form">
-        <h2>Login</h2>
+        <h2 className="head">Login</h2>
         <Form className="form-items">
           <Form.Group className="formGroup mb-3" controlId="formBasicEmail">
-            <Form.Label>Email address</Form.Label>
+            <Form.Label className="formlabel">Email address</Form.Label>
             <Form.Control
               style={{ backgroundColor: "rgba(159, 158, 158, 0.112)" }}
               type="email"
@@ -17,7 +17,7 @@ const Login = () => {
             />
           </Form.Group>
           <Form.Group  className="formGroup mb-5" controlId="formBasicEmail">
-            <Form.Label>Password</Form.Label>
+            <Form.Label  className="formlabel">Password</Form.Label>
             <Form.Control
               style={{ backgroundColor: "rgba(159, 158, 158, 0.112)" }}
               type="password"
@@ -26,7 +26,7 @@ const Login = () => {
           </Form.Group>
           <Button className="loginBtn btn-danger mb-4">Log In</Button>
           <div className="text">
-            <p>Remember me</p>
+       
             <p> need help?</p>
           </div>
           <div className="sugnup">
