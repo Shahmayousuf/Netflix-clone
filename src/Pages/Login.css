@@ -40,9 +40,9 @@
   align-items: center;
   padding: 60px;
   margin-bottom: 40px;
-  
-
+  /* outline: none; */
 }
+
 
 .formGroup {
   width: 100%;
@@ -55,4 +55,9 @@
   display: flex;
 
   justify-content: space-between;
+}
+.formGroup input:focus{
+  border-color:rgb(129, 122, 122);
+  box-shadow: none;
+  
 }

@@ -16,7 +16,7 @@ const Login = () => {
               placeholder="Enter email"
             />
           </Form.Group>
-          <Form.Group className="formGroup mb-5" controlId="formBasicEmail">
+          <Form.Group  className="formGroup mb-5" controlId="formBasicEmail">
             <Form.Label>Password</Form.Label>
             <Form.Control
               style={{ backgroundColor: "rgba(159, 158, 158, 0.112)" }}
