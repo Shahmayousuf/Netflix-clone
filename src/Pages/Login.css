@@ -16,7 +16,7 @@
   justify-content: center;
 }
 
-.form .head{
+.form .head {
   /* text-align: center; */
   margin-left: 50px;
   padding: 20px;
@@ -40,10 +40,10 @@
   justify-content: center;
   align-items: center;
   padding: 60px;
-  margin-bottom: 40px;
-  /* outline: none; */
+  /* margin-bottom: 40px; */
+
 }
-.formlabel{
+.formlabel {
   color: white;
 }
 
@@ -53,18 +53,22 @@
 .loginBtn {
   width: 100%;
 }
-.text  {
+.text {
   width: 100%;
   display: flex;
-  color:white;
+  color: white;
 
   justify-content: space-between;
 }
-.formGroup input:focus{
-  border-color:rgb(129, 122, 122);
+.formGroup input:focus {
+  border-color: rgb(129, 122, 122);
   box-shadow: none;
-  
 }
-.sugnup{
+.sugnup {
   color: white;
+}
+@media screen and (max-width: 700px) {
+  .form {
+    width: 400px;
+  }
 }

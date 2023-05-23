@@ -58,8 +58,11 @@ button:hover{
     .content{
         padding: 200px;
     }
+    .content h1 {
+        font-size: 38px;
+      }
     button{
         margin-top: 10px;
     }
-   
+  
 }

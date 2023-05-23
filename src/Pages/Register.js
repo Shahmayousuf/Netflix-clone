@@ -24,6 +24,14 @@ const Register = () => {
               placeholder="Enter email"
             />
           </Form.Group>
+          <Form.Group  className="formGroup mb-5" controlId="formBasicEmail">
+            <Form.Label  className="formlabel">Phone Number</Form.Label>
+            <Form.Control
+              style={{ backgroundColor: "rgba(159, 158, 158, 0.112)" }}
+              type="password"
+              placeholder="Enter your Phone number"
+            />
+          </Form.Group>
           <Button className="loginBtn btn-danger mb-4">Sign UP</Button>
           <div className="text">
           

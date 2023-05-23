@@ -1,8 +1,12 @@
 import React from "react";
 import './Landingpage.css'
+import NavBar from "../Components/NavBar/NavBar";
 const LandingPage = () => {
   return (
+    
+   
     <div className="banner">
+
       <div className="content">
         <h1>Unlimited movies, TV<br></br> shows,and more.</h1>
         <p className="para">Watch anywhere.Cancel anytime</p>
@@ -19,6 +23,7 @@ const LandingPage = () => {
       </div>
 
     </div>
+    
   );
 };
 

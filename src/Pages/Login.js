@@ -31,7 +31,7 @@ const Login = () => {
           </div>
           <div className="sugnup">
             <p>
-              New Here? <a href="#">SignUp</a>{" "}
+              New Here? <a href="/register">SignUp</a>{" "}
             </p>
           </div>
         </Form>
