@@ -19,7 +19,7 @@ const Register = () => {
           <Form.Group  className="formGroup mb-5" controlId="formBasicEmail">
             <Form.Label className="formlabel">Email</Form.Label>
             <Form.Control
-              style={{ backgroundColor: "rgba(159, 158, 158, 0.112)" }}
+              style={{ backgroundColor: "rgba(159, 158, 158, 0.112)",color:'white' }}
               type="email"
               placeholder="Enter email"
             />
@@ -27,7 +27,7 @@ const Register = () => {
           <Form.Group  className="formGroup mb-5" controlId="formBasicEmail">
             <Form.Label  className="formlabel">Phone Number</Form.Label>
             <Form.Control
-              style={{ backgroundColor: "rgba(159, 158, 158, 0.112)" }}
+              style={{ backgroundColor: "rgba(159, 158, 158, 0.112)",color:'white' }}
               type="password"
               placeholder="Enter your Phone number"
             />

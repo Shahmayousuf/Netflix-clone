@@ -2,6 +2,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "./Login.css";
+import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div className="banner">
@@ -11,20 +12,21 @@ const Login = () => {
           <Form.Group className="formGroup mb-3" controlId="formBasicEmail">
             <Form.Label className="formlabel">Email address</Form.Label>
             <Form.Control
-              style={{ backgroundColor: "rgba(159, 158, 158, 0.112)" }}
+              style={{ backgroundColor: "rgba(159, 158, 158, 0.112)" ,color:'white'}}
               type="email"
               placeholder="Enter email"
             />
           </Form.Group>
           <Form.Group  className="formGroup mb-5" controlId="formBasicEmail">
             <Form.Label  className="formlabel">Password</Form.Label>
-            <Form.Control
-              style={{ backgroundColor: "rgba(159, 158, 158, 0.112)" }}
+            <Form.Control 
+              style={{ backgroundColor: "rgba(159, 158, 158, 0.112)" ,color:'white'}}
               type="password"
               placeholder="Enter password"
             />
           </Form.Group>
-          <Button className="loginBtn btn-danger mb-4">Log In</Button>
+          <Link to={'/homepage'}>
+          <Button className="loginBtn btn-danger mb-4">Log In</Button></Link>
           <div className="text">
        
             <p> need help?</p>

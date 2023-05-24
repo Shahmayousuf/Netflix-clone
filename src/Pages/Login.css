@@ -50,9 +50,7 @@
 .formGroup {
   width: 100%;
 }
-.loginBtn {
-  width: 100%;
-}
+
 .text {
   width: 100%;
   display: flex;
@@ -63,6 +61,9 @@
 .formGroup input:focus {
   border-color: rgb(129, 122, 122);
   box-shadow: none;
+}
+.inputcolor{
+  color: white;
 }
 .sugnup {
   color: white;

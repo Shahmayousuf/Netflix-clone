@@ -16,25 +16,21 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Routes>
-        <Route element={<Layout/>}>
-        <Route path="/" element={<LandingPage/>}></Route>
-        <Route path='/register'element={<Register/>}></Route>
-        <Route path='/login'element={<Login/>}></Route>
-        <Route path='homepage'element={<HomePage/>}></Route>
-        
-
-        
-        
-        </Route>
-      </Routes>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<LandingPage />}></Route>
+            <Route path="/register" element={<Register />}></Route>
+            <Route path="/login" element={<Login />}></Route>
+            <Route path="/homepage" element={<HomePage/>}></Route>
+          </Route>
+        </Routes>
       </BrowserRouter>
-       {/* <LandingPage /> */}
+      {/* <LandingPage /> */}
       {/* <Login />
-      <Register />
+      <Register /> */}
 
-      <NavBar />
-      <Banner />
+      {/* <NavBar /> */}
+      {/* <Banner />
       <RowPost url={originals} title="Netflix Originals" />
       <RowPost url={action} title="Action" isSmall />
       <RowPost url={comedy} title="Comedy" isSmall />
