@@ -5,6 +5,10 @@
 body{
   box-sizing: border-box;
   font-family: sans-serif;
-  background-color:black;
+  /* background-color:black; */
   overflow-x: hidden;
+}
+.App{
+  background-color: black
+  /* color: white; */
 }
